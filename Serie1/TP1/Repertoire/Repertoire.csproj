@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C422C4D0-08B9-41AA-9C5C-5E3216A53DF7}</ProjectGuid>
+    <ProjectGuid>{82B6F8C1-BC2F-48ED-A98F-DB8FA3C8043D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Serie2</RootNamespace>
-    <AssemblyName>Serie2</AssemblyName>
+    <RootNamespace>Repertoire</RootNamespace>
+    <AssemblyName>Repertoire</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TP1\Directeur.cs" />
-    <Compile Include="TP1\Employe.cs" />
-    <Compile Include="TP1\Gestion_Emp.cs" />
-    <Compile Include="TP1\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TP2\Biblio.cs" />
-    <Compile Include="TP2\Dictionnaire.cs" />
-    <Compile Include="TP2\Document.cs" />
-    <Compile Include="TP2\Livre.cs" />
-    <Compile Include="TP2\program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="TP2\App.config" />
+    <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

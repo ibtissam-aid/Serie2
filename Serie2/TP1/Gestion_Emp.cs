@@ -30,7 +30,7 @@ namespace Serie2
             return Total;
         }
 
-        public double CalculerMoyEmp(Employe employe)
+        public double CalculerMoyEmp()
         {
             if (list_Emp.Count > 0)
             {

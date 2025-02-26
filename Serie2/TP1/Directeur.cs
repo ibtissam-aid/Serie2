@@ -29,8 +29,19 @@ namespace Serie2
         }
        
 
-        
-            
+        public double CalculerSalaireTotal()
+        {
+            return gest_emp.CalculerSalaireEntrprise();
+
+        }
+        public double SalaireMoyen()
+        {
+            return gest_emp.CalculerMoyEmp();
+        }
+          public void AfficherInfos()
+        {
+            Console.WriteLine("le salaire total :" + CalculerSalaireTotal() + "\n" + "le salaire Moyen:" + SalaireMoyen());
+        }  
  
         
 
